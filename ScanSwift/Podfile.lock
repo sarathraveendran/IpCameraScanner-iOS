@@ -1,0 +1,15 @@
+PODS:
+  - MMLanScan (3.0.0)
+  - SwiftSocket (2.0.2)
+
+DEPENDENCIES:
+  - MMLanScan
+  - SwiftSocket
+
+SPEC CHECKSUMS:
+  MMLanScan: 86a0f77edbf163be30c1f58321469c7c8ce4c50e
+  SwiftSocket: 6f4c9c63fbc5c1d61188936bb3c599fd546f40ae
+
+PODFILE CHECKSUM: 05a500249349bd69d147e6f79e000ac60653ea82
+
+COCOAPODS: 1.4.0.rc.1

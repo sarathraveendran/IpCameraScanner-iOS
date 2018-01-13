@@ -1,0 +1,6 @@
+framework module Pods_IpCamScaner {
+  umbrella header "Pods-IpCamScaner-umbrella.h"
+
+  export *
+  module * { export * }
+}

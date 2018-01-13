@@ -1,0 +1,840 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		072F6B9B98B5BC9EBF82949C0118C139 /* MMLANScanner.m in Sources */ = {isa = PBXBuildFile; fileRef = C7A477CF2CD6D75FD62156B04D7E0EA2 /* MMLANScanner.m */; };
+		13F0417C76C6814DE338361A92E4BB9A /* MacFinder.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CCDF926AC4EE3B8A583EE12F87AB9C9 /* MacFinder.m */; };
+		288EC1EA91CB9AF7BA06D33F6DA22536 /* SwiftSocket-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 994F54A7C6B11A5D2CFE377300449CDC /* SwiftSocket-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		31BD0FCA8926017F6FBCBD35B5ABBFA6 /* SimplePing.h in Headers */ = {isa = PBXBuildFile; fileRef = 76C741D27CA8CB65069BB037104F1F32 /* SimplePing.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		34CF8B29587E8F60C3612376841D7BDE /* Socket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB17FAEDE00347C34F53C7FDCA39174 /* Socket.swift */; };
+		4EBB65B8C2ED987CC312C568C7CA5B84 /* ytcpsocket.c in Sources */ = {isa = PBXBuildFile; fileRef = 8D7793E4AFF8DDBFB0AFA0D70AFB3845 /* ytcpsocket.c */; };
+		541117E1BCF328114498E34A8C9E0A7C /* MMLanScan-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C1170BFFF014348E8A070198290856A /* MMLanScan-dummy.m */; };
+		5E7D5BFA45E7FD24E660497801D98B2B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		6DC385D699E50EE863D414789062F732 /* SimplePing.m in Sources */ = {isa = PBXBuildFile; fileRef = 372473CC01530B7A18FC2B8F944A0C20 /* SimplePing.m */; };
+		7701F8FD52F2D5C94D3C75F8AEF14795 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		784388F40E4F49B723C7966CB361D7F8 /* SwiftSocket-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AD4D929DF94CD86FC815297E1ED7C720 /* SwiftSocket-dummy.m */; };
+		84DC9A10CF9CE321E0164AF82358EE9D /* Pods-IpCamScaner-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 08B577CD11C4B9360CC103A0E618EF42 /* Pods-IpCamScaner-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		86AA65039049EC17DF83ECAA3850E2FA /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = F61E91AC9E3A998D152764C3A29CF274 /* Result.swift */; };
+		86B25CD58898A9101608E1ED3010A9B6 /* MMDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 8534B834465899F875EA28F8B3015329 /* MMDevice.m */; };
+		8888E5A3A29330E59D982FAC25A6F914 /* MMLANScanner.h in Headers */ = {isa = PBXBuildFile; fileRef = 04A0C206E7D6B32BC4139ADFAA2B19E7 /* MMLANScanner.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9527406ECEC9320AA0A835129A6425CD /* Pods-IpCamScaner-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7843904EE59F12364426D69606F55BB2 /* Pods-IpCamScaner-dummy.m */; };
+		96EB468FE3F3AD4C5CDF6E20C762C8DB /* TCPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A3CFB5E0A17738FC77ED71CD474ABE8 /* TCPClient.swift */; };
+		980F5536AC0C70868C35BD27B2F12F5F /* MACOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 90CE135FF59D516EA06EF13B345E26F5 /* MACOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9C4F3EAA385BF84D8E21416FD9FA67F7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		9E53B978388A9CB8C1721A109C87FB90 /* if_ether.h in Headers */ = {isa = PBXBuildFile; fileRef = 3AB7456B7BFB12C7880D26DA438EBC35 /* if_ether.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A131EB3E22F4C12AE30827B790551B80 /* if_arp.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D2925280363A54AF1FF0C13AE35EF1B /* if_arp.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A43D8E32E0840DC252DD3E03388E925A /* yudpsocket.c in Sources */ = {isa = PBXBuildFile; fileRef = ADB466C64FE0E82E232CCD4CDF346A72 /* yudpsocket.c */; };
+		A50F7A32D5C0537901A2DAF1DEC7CF41 /* NetworkCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 67DAD1DC98BFF32E3FD689E71104D82E /* NetworkCalculator.m */; };
+		A859E8B3C65488C9322E25281D343682 /* MMLanScan-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0392F5D4E04807A382CCBF9DC54C33C6 /* MMLanScan-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B88C21603767EE81E34B4723BDBDD69A /* MacFinder.h in Headers */ = {isa = PBXBuildFile; fileRef = 795F57ED736167EA910AFA05BE92ABFB /* MacFinder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C2209F55B67669F28F60851800E91721 /* UDPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6514FC799C9D370D8B8420C3F35CE86A /* UDPClient.swift */; };
+		C64681050ACBD8FF1D926387551F2E15 /* LANProperties.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F67993F5D3FD5C43B4F9A146101483B /* LANProperties.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C923DB0D0627296CE32EF46F216D4072 /* route.h in Headers */ = {isa = PBXBuildFile; fileRef = DB38CFDE57395B6267B85985EDC34283 /* route.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CBBC4EAD6B43BA38BBFF14B67E4FF8D7 /* data.plist in Resources */ = {isa = PBXBuildFile; fileRef = C795973232170B3F127A521D51FF1833 /* data.plist */; };
+		DCB249F590FD471F8070AA5A73D52958 /* PingOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 7481F6EF5D065AEA014E2EAD5EA0F1C8 /* PingOperation.m */; };
+		E38A4C6429774F32572E011F19288408 /* LANProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B5A5CF0617C896F2202FDB1DCF5D632 /* LANProperties.m */; };
+		ED36BD42A9DA0369CF9D48C588494A5F /* PingOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 778B333033F3EC3FC4D2972C5719173D /* PingOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F4D1597432EF09F0C439E621649DC3E0 /* MACOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = F587BB96CDD783F007195BD80EFF621F /* MACOperation.m */; };
+		F7ED035F4678840079D8DFDB35662239 /* MMDevice.h in Headers */ = {isa = PBXBuildFile; fileRef = CC0A6D5DE4D285A11765B02050B85A03 /* MMDevice.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F91D148A82D8A209C5B3876B053C809B /* NetworkCalculator.h in Headers */ = {isa = PBXBuildFile; fileRef = 78ED372C060A52FC442E01AC1557E9D7 /* NetworkCalculator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		03644A79805B240DAD1AA7915AF1BDBB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B9E35803527D67C236ABEB6756DED3B7;
+			remoteInfo = SwiftSocket;
+		};
+		D8B187C1F999FFBBCB1944AF87A1176B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E53C016370ECACDED3BA30CB1BC2A54B;
+			remoteInfo = MMLanScan;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0392F5D4E04807A382CCBF9DC54C33C6 /* MMLanScan-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MMLanScan-umbrella.h"; sourceTree = "<group>"; };
+		04A0C206E7D6B32BC4139ADFAA2B19E7 /* MMLANScanner.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MMLANScanner.h; path = MMLanScan/Misc/MMLANScanner.h; sourceTree = "<group>"; };
+		08B577CD11C4B9360CC103A0E618EF42 /* Pods-IpCamScaner-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-IpCamScaner-umbrella.h"; sourceTree = "<group>"; };
+		1624F5C6D3DA116D726FF58BA672EED4 /* SwiftSocket-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftSocket-prefix.pch"; sourceTree = "<group>"; };
+		1AE7E4D09E2BC277AE7EEC56A84C9F34 /* MMLanScan.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MMLanScan.framework; path = MMLanScan.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F67993F5D3FD5C43B4F9A146101483B /* LANProperties.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LANProperties.h; path = MMLanScan/Misc/LANProperties.h; sourceTree = "<group>"; };
+		2928353A8397E8E3D9B5A12086233C8B /* SwiftSocket.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SwiftSocket.modulemap; sourceTree = "<group>"; };
+		31F29572496216B8BD159CEF37200DF4 /* SwiftSocket.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftSocket.xcconfig; sourceTree = "<group>"; };
+		33A07ABB618CD06C9EC98F9F4A592BF4 /* Pods-IpCamScaner-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-IpCamScaner-acknowledgements.plist"; sourceTree = "<group>"; };
+		372473CC01530B7A18FC2B8F944A0C20 /* SimplePing.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SimplePing.m; path = "MMLanScan/External Libs/SimplePing/SimplePing.m"; sourceTree = "<group>"; };
+		3AB7456B7BFB12C7880D26DA438EBC35 /* if_ether.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = if_ether.h; path = "MMLanScan/External Libs/MacFinder/Network Headers/if_ether.h"; sourceTree = "<group>"; };
+		3B5A5CF0617C896F2202FDB1DCF5D632 /* LANProperties.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LANProperties.m; path = MMLanScan/Misc/LANProperties.m; sourceTree = "<group>"; };
+		3D2925280363A54AF1FF0C13AE35EF1B /* if_arp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = if_arp.h; path = "MMLanScan/External Libs/MacFinder/Network Headers/if_arp.h"; sourceTree = "<group>"; };
+		3FB17FAEDE00347C34F53C7FDCA39174 /* Socket.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Socket.swift; path = Sources/Socket.swift; sourceTree = "<group>"; };
+		4880B05182133BC08B9D8B3F9250ABB8 /* MMLanScan.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = MMLanScan.modulemap; sourceTree = "<group>"; };
+		51357C5BBBEE154FF51C473918F2252C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A3CFB5E0A17738FC77ED71CD474ABE8 /* TCPClient.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TCPClient.swift; path = Sources/TCPClient.swift; sourceTree = "<group>"; };
+		5CCDF926AC4EE3B8A583EE12F87AB9C9 /* MacFinder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MacFinder.m; path = "MMLanScan/External Libs/MacFinder/MacFinder.m"; sourceTree = "<group>"; };
+		6514FC799C9D370D8B8420C3F35CE86A /* UDPClient.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UDPClient.swift; path = Sources/UDPClient.swift; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		67DAD1DC98BFF32E3FD689E71104D82E /* NetworkCalculator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NetworkCalculator.m; path = MMLanScan/Misc/NetworkCalculator.m; sourceTree = "<group>"; };
+		7481F6EF5D065AEA014E2EAD5EA0F1C8 /* PingOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PingOperation.m; path = MMLanScan/Misc/PingOperation.m; sourceTree = "<group>"; };
+		76C741D27CA8CB65069BB037104F1F32 /* SimplePing.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SimplePing.h; path = "MMLanScan/External Libs/SimplePing/SimplePing.h"; sourceTree = "<group>"; };
+		778B333033F3EC3FC4D2972C5719173D /* PingOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PingOperation.h; path = MMLanScan/Misc/PingOperation.h; sourceTree = "<group>"; };
+		7843904EE59F12364426D69606F55BB2 /* Pods-IpCamScaner-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-IpCamScaner-dummy.m"; sourceTree = "<group>"; };
+		78ED372C060A52FC442E01AC1557E9D7 /* NetworkCalculator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NetworkCalculator.h; path = MMLanScan/Misc/NetworkCalculator.h; sourceTree = "<group>"; };
+		795F57ED736167EA910AFA05BE92ABFB /* MacFinder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MacFinder.h; path = "MMLanScan/External Libs/MacFinder/MacFinder.h"; sourceTree = "<group>"; };
+		812DDB99B6A47DB2C1A830CDFD13F511 /* Pods-IpCamScaner-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-IpCamScaner-resources.sh"; sourceTree = "<group>"; };
+		81A09E5914190E3D920049FED87FC004 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8534B834465899F875EA28F8B3015329 /* MMDevice.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MMDevice.m; path = MMLanScan/Objects/MMDevice.m; sourceTree = "<group>"; };
+		8D7793E4AFF8DDBFB0AFA0D70AFB3845 /* ytcpsocket.c */ = {isa = PBXFileReference; includeInIndex = 1; name = ytcpsocket.c; path = Sources/ytcpsocket.c; sourceTree = "<group>"; };
+		90CE135FF59D516EA06EF13B345E26F5 /* MACOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MACOperation.h; path = MMLanScan/Misc/MACOperation.h; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		940A169B4AC7232A5255C18873EC29A6 /* Pods-IpCamScaner.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-IpCamScaner.modulemap"; sourceTree = "<group>"; };
+		994F54A7C6B11A5D2CFE377300449CDC /* SwiftSocket-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftSocket-umbrella.h"; sourceTree = "<group>"; };
+		9C1170BFFF014348E8A070198290856A /* MMLanScan-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MMLanScan-dummy.m"; sourceTree = "<group>"; };
+		AC164CB8DA4F9E01465B4F92BB52AE7C /* Pods_IpCamScaner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_IpCamScaner.framework; path = "Pods-IpCamScaner.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD4D929DF94CD86FC815297E1ED7C720 /* SwiftSocket-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftSocket-dummy.m"; sourceTree = "<group>"; };
+		ADB466C64FE0E82E232CCD4CDF346A72 /* yudpsocket.c */ = {isa = PBXFileReference; includeInIndex = 1; name = yudpsocket.c; path = Sources/yudpsocket.c; sourceTree = "<group>"; };
+		C2CCB4A35B66E99B53C29999EA87DF1B /* Pods-IpCamScaner-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-IpCamScaner-frameworks.sh"; sourceTree = "<group>"; };
+		C795973232170B3F127A521D51FF1833 /* data.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = data.plist; path = MMLanScan/Data/data.plist; sourceTree = "<group>"; };
+		C7A477CF2CD6D75FD62156B04D7E0EA2 /* MMLANScanner.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MMLANScanner.m; path = MMLanScan/Misc/MMLANScanner.m; sourceTree = "<group>"; };
+		CC0A6D5DE4D285A11765B02050B85A03 /* MMDevice.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MMDevice.h; path = MMLanScan/Objects/MMDevice.h; sourceTree = "<group>"; };
+		CC2F9BF0DC827207051630E5DB8D4D76 /* MMLanScan.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MMLanScan.xcconfig; sourceTree = "<group>"; };
+		D3922004856B902FC74BE1825783E228 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6322E5437A840283BAE519FBA058DB0 /* Pods-IpCamScaner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IpCamScaner.release.xcconfig"; sourceTree = "<group>"; };
+		DB38CFDE57395B6267B85985EDC34283 /* route.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = route.h; path = "MMLanScan/External Libs/MacFinder/Network Headers/route.h"; sourceTree = "<group>"; };
+		E7D9498F5D023EAA80F9C15F8BCAE22B /* Pods-IpCamScaner-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-IpCamScaner-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E9CB4C434F8C446F44C248A9CE7FD29E /* MMLanScan-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MMLanScan-prefix.pch"; sourceTree = "<group>"; };
+		F587BB96CDD783F007195BD80EFF621F /* MACOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MACOperation.m; path = MMLanScan/Misc/MACOperation.m; sourceTree = "<group>"; };
+		F61E91AC9E3A998D152764C3A29CF274 /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Sources/Result.swift; sourceTree = "<group>"; };
+		F87B632C56C0F7E899FBB93FBD851B39 /* SwiftSocket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftSocket.framework; path = SwiftSocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC02E6253C7AAFEB5525595AFF90539B /* Pods-IpCamScaner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IpCamScaner.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0653E5B8AC523DADA1E2C2D084D92CCF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7701F8FD52F2D5C94D3C75F8AEF14795 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC0C4FFA2363BE9173CAB48180FC589F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E7D5BFA45E7FD24E660497801D98B2B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED1AA28869ACEE95788C5D0D12D8D9FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C4F3EAA385BF84D8E21416FD9FA67F7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		36AD7F26BF2A33115361D1D8F207631D /* MMLanScan */ = {
+			isa = PBXGroup;
+			children = (
+				3D2925280363A54AF1FF0C13AE35EF1B /* if_arp.h */,
+				3AB7456B7BFB12C7880D26DA438EBC35 /* if_ether.h */,
+				1F67993F5D3FD5C43B4F9A146101483B /* LANProperties.h */,
+				3B5A5CF0617C896F2202FDB1DCF5D632 /* LANProperties.m */,
+				795F57ED736167EA910AFA05BE92ABFB /* MacFinder.h */,
+				5CCDF926AC4EE3B8A583EE12F87AB9C9 /* MacFinder.m */,
+				90CE135FF59D516EA06EF13B345E26F5 /* MACOperation.h */,
+				F587BB96CDD783F007195BD80EFF621F /* MACOperation.m */,
+				CC0A6D5DE4D285A11765B02050B85A03 /* MMDevice.h */,
+				8534B834465899F875EA28F8B3015329 /* MMDevice.m */,
+				04A0C206E7D6B32BC4139ADFAA2B19E7 /* MMLANScanner.h */,
+				C7A477CF2CD6D75FD62156B04D7E0EA2 /* MMLANScanner.m */,
+				78ED372C060A52FC442E01AC1557E9D7 /* NetworkCalculator.h */,
+				67DAD1DC98BFF32E3FD689E71104D82E /* NetworkCalculator.m */,
+				778B333033F3EC3FC4D2972C5719173D /* PingOperation.h */,
+				7481F6EF5D065AEA014E2EAD5EA0F1C8 /* PingOperation.m */,
+				DB38CFDE57395B6267B85985EDC34283 /* route.h */,
+				76C741D27CA8CB65069BB037104F1F32 /* SimplePing.h */,
+				372473CC01530B7A18FC2B8F944A0C20 /* SimplePing.m */,
+				36B478127041802682D82DF477664265 /* Resources */,
+				AE4AEB1D6F436C179DCDF2716B1FF448 /* Support Files */,
+			);
+			name = MMLanScan;
+			path = MMLanScan;
+			sourceTree = "<group>";
+		};
+		36B478127041802682D82DF477664265 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C795973232170B3F127A521D51FF1833 /* data.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		394B998FF3718B0E83C13B4E50AF3226 /* SwiftSocket */ = {
+			isa = PBXGroup;
+			children = (
+				F61E91AC9E3A998D152764C3A29CF274 /* Result.swift */,
+				3FB17FAEDE00347C34F53C7FDCA39174 /* Socket.swift */,
+				5A3CFB5E0A17738FC77ED71CD474ABE8 /* TCPClient.swift */,
+				6514FC799C9D370D8B8420C3F35CE86A /* UDPClient.swift */,
+				8D7793E4AFF8DDBFB0AFA0D70AFB3845 /* ytcpsocket.c */,
+				ADB466C64FE0E82E232CCD4CDF346A72 /* yudpsocket.c */,
+				52E7FDA426D32FEC15F3C47A2536398B /* Support Files */,
+			);
+			name = SwiftSocket;
+			path = SwiftSocket;
+			sourceTree = "<group>";
+		};
+		3B3988275F7970ED1CFD9CE31FC936FA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1AE7E4D09E2BC277AE7EEC56A84C9F34 /* MMLanScan.framework */,
+				AC164CB8DA4F9E01465B4F92BB52AE7C /* Pods_IpCamScaner.framework */,
+				F87B632C56C0F7E899FBB93FBD851B39 /* SwiftSocket.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4FEF45CCEDCBA1AED4FB7D35452A991F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				36AD7F26BF2A33115361D1D8F207631D /* MMLanScan */,
+				394B998FF3718B0E83C13B4E50AF3226 /* SwiftSocket */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		52E7FDA426D32FEC15F3C47A2536398B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D3922004856B902FC74BE1825783E228 /* Info.plist */,
+				2928353A8397E8E3D9B5A12086233C8B /* SwiftSocket.modulemap */,
+				31F29572496216B8BD159CEF37200DF4 /* SwiftSocket.xcconfig */,
+				AD4D929DF94CD86FC815297E1ED7C720 /* SwiftSocket-dummy.m */,
+				1624F5C6D3DA116D726FF58BA672EED4 /* SwiftSocket-prefix.pch */,
+				994F54A7C6B11A5D2CFE377300449CDC /* SwiftSocket-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftSocket";
+			sourceTree = "<group>";
+		};
+		58A857509F22655735456ECC6D03DCEF /* Pods-IpCamScaner */ = {
+			isa = PBXGroup;
+			children = (
+				81A09E5914190E3D920049FED87FC004 /* Info.plist */,
+				940A169B4AC7232A5255C18873EC29A6 /* Pods-IpCamScaner.modulemap */,
+				E7D9498F5D023EAA80F9C15F8BCAE22B /* Pods-IpCamScaner-acknowledgements.markdown */,
+				33A07ABB618CD06C9EC98F9F4A592BF4 /* Pods-IpCamScaner-acknowledgements.plist */,
+				7843904EE59F12364426D69606F55BB2 /* Pods-IpCamScaner-dummy.m */,
+				C2CCB4A35B66E99B53C29999EA87DF1B /* Pods-IpCamScaner-frameworks.sh */,
+				812DDB99B6A47DB2C1A830CDFD13F511 /* Pods-IpCamScaner-resources.sh */,
+				08B577CD11C4B9360CC103A0E618EF42 /* Pods-IpCamScaner-umbrella.h */,
+				FC02E6253C7AAFEB5525595AFF90539B /* Pods-IpCamScaner.debug.xcconfig */,
+				D6322E5437A840283BAE519FBA058DB0 /* Pods-IpCamScaner.release.xcconfig */,
+			);
+			name = "Pods-IpCamScaner";
+			path = "Target Support Files/Pods-IpCamScaner";
+			sourceTree = "<group>";
+		};
+		6F7EE328B984BAC98BD97AB4EE23BF1B /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				58A857509F22655735456ECC6D03DCEF /* Pods-IpCamScaner */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				4FEF45CCEDCBA1AED4FB7D35452A991F /* Pods */,
+				3B3988275F7970ED1CFD9CE31FC936FA /* Products */,
+				6F7EE328B984BAC98BD97AB4EE23BF1B /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		AE4AEB1D6F436C179DCDF2716B1FF448 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				51357C5BBBEE154FF51C473918F2252C /* Info.plist */,
+				4880B05182133BC08B9D8B3F9250ABB8 /* MMLanScan.modulemap */,
+				CC2F9BF0DC827207051630E5DB8D4D76 /* MMLanScan.xcconfig */,
+				9C1170BFFF014348E8A070198290856A /* MMLanScan-dummy.m */,
+				E9CB4C434F8C446F44C248A9CE7FD29E /* MMLanScan-prefix.pch */,
+				0392F5D4E04807A382CCBF9DC54C33C6 /* MMLanScan-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MMLanScan";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		05CABFB144A92334CA27D7F290804595 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				288EC1EA91CB9AF7BA06D33F6DA22536 /* SwiftSocket-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6361235ADE99C6E43DD08A9C87D4A5FF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A131EB3E22F4C12AE30827B790551B80 /* if_arp.h in Headers */,
+				9E53B978388A9CB8C1721A109C87FB90 /* if_ether.h in Headers */,
+				C64681050ACBD8FF1D926387551F2E15 /* LANProperties.h in Headers */,
+				B88C21603767EE81E34B4723BDBDD69A /* MacFinder.h in Headers */,
+				980F5536AC0C70868C35BD27B2F12F5F /* MACOperation.h in Headers */,
+				F7ED035F4678840079D8DFDB35662239 /* MMDevice.h in Headers */,
+				A859E8B3C65488C9322E25281D343682 /* MMLanScan-umbrella.h in Headers */,
+				8888E5A3A29330E59D982FAC25A6F914 /* MMLANScanner.h in Headers */,
+				F91D148A82D8A209C5B3876B053C809B /* NetworkCalculator.h in Headers */,
+				ED36BD42A9DA0369CF9D48C588494A5F /* PingOperation.h in Headers */,
+				C923DB0D0627296CE32EF46F216D4072 /* route.h in Headers */,
+				31BD0FCA8926017F6FBCBD35B5ABBFA6 /* SimplePing.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		885AC668BB7EA2D1B6A75AC1DBECB4EA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84DC9A10CF9CE321E0164AF82358EE9D /* Pods-IpCamScaner-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		B9E35803527D67C236ABEB6756DED3B7 /* SwiftSocket */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 174BA697525813D8E61084C85FABB50A /* Build configuration list for PBXNativeTarget "SwiftSocket" */;
+			buildPhases = (
+				6565451C0794CA54A27589BC8851478E /* Sources */,
+				CC0C4FFA2363BE9173CAB48180FC589F /* Frameworks */,
+				05CABFB144A92334CA27D7F290804595 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftSocket;
+			productName = SwiftSocket;
+			productReference = F87B632C56C0F7E899FBB93FBD851B39 /* SwiftSocket.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BB028176D1A71F14BE3677FCBA143B75 /* Pods-IpCamScaner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55C08F9E13247D6337CF6659C7C80E5C /* Build configuration list for PBXNativeTarget "Pods-IpCamScaner" */;
+			buildPhases = (
+				6D3DA7454C350A83BFCA33985436DDCB /* Sources */,
+				0653E5B8AC523DADA1E2C2D084D92CCF /* Frameworks */,
+				885AC668BB7EA2D1B6A75AC1DBECB4EA /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD71ADD4B3543BC168A3A5CBE7AF60AC /* PBXTargetDependency */,
+				111373787803CBAC43008F3C48165656 /* PBXTargetDependency */,
+			);
+			name = "Pods-IpCamScaner";
+			productName = "Pods-IpCamScaner";
+			productReference = AC164CB8DA4F9E01465B4F92BB52AE7C /* Pods_IpCamScaner.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E53C016370ECACDED3BA30CB1BC2A54B /* MMLanScan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49CD763431A50EDD15DE2A19C014E860 /* Build configuration list for PBXNativeTarget "MMLanScan" */;
+			buildPhases = (
+				CA33578507DD8B7E9202DA0C25EB440C /* Sources */,
+				ED1AA28869ACEE95788C5D0D12D8D9FF /* Frameworks */,
+				6361235ADE99C6E43DD08A9C87D4A5FF /* Headers */,
+				D0CAABD90296ED24D62A8BFBA6EAC5AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MMLanScan;
+			productName = MMLanScan;
+			productReference = 1AE7E4D09E2BC277AE7EEC56A84C9F34 /* MMLanScan.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 3B3988275F7970ED1CFD9CE31FC936FA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E53C016370ECACDED3BA30CB1BC2A54B /* MMLanScan */,
+				BB028176D1A71F14BE3677FCBA143B75 /* Pods-IpCamScaner */,
+				B9E35803527D67C236ABEB6756DED3B7 /* SwiftSocket */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D0CAABD90296ED24D62A8BFBA6EAC5AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBBC4EAD6B43BA38BBFF14B67E4FF8D7 /* data.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6565451C0794CA54A27589BC8851478E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86AA65039049EC17DF83ECAA3850E2FA /* Result.swift in Sources */,
+				34CF8B29587E8F60C3612376841D7BDE /* Socket.swift in Sources */,
+				784388F40E4F49B723C7966CB361D7F8 /* SwiftSocket-dummy.m in Sources */,
+				96EB468FE3F3AD4C5CDF6E20C762C8DB /* TCPClient.swift in Sources */,
+				C2209F55B67669F28F60851800E91721 /* UDPClient.swift in Sources */,
+				4EBB65B8C2ED987CC312C568C7CA5B84 /* ytcpsocket.c in Sources */,
+				A43D8E32E0840DC252DD3E03388E925A /* yudpsocket.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D3DA7454C350A83BFCA33985436DDCB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9527406ECEC9320AA0A835129A6425CD /* Pods-IpCamScaner-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA33578507DD8B7E9202DA0C25EB440C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E38A4C6429774F32572E011F19288408 /* LANProperties.m in Sources */,
+				13F0417C76C6814DE338361A92E4BB9A /* MacFinder.m in Sources */,
+				F4D1597432EF09F0C439E621649DC3E0 /* MACOperation.m in Sources */,
+				86B25CD58898A9101608E1ED3010A9B6 /* MMDevice.m in Sources */,
+				541117E1BCF328114498E34A8C9E0A7C /* MMLanScan-dummy.m in Sources */,
+				072F6B9B98B5BC9EBF82949C0118C139 /* MMLANScanner.m in Sources */,
+				A50F7A32D5C0537901A2DAF1DEC7CF41 /* NetworkCalculator.m in Sources */,
+				DCB249F590FD471F8070AA5A73D52958 /* PingOperation.m in Sources */,
+				6DC385D699E50EE863D414789062F732 /* SimplePing.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		111373787803CBAC43008F3C48165656 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftSocket;
+			target = B9E35803527D67C236ABEB6756DED3B7 /* SwiftSocket */;
+			targetProxy = 03644A79805B240DAD1AA7915AF1BDBB /* PBXContainerItemProxy */;
+		};
+		CD71ADD4B3543BC168A3A5CBE7AF60AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MMLanScan;
+			target = E53C016370ECACDED3BA30CB1BC2A54B /* MMLanScan */;
+			targetProxy = D8B187C1F999FFBBCB1944AF87A1176B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		156F8BCA95B2FFD3BB2E01B39546AE77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC2F9BF0DC827207051630E5DB8D4D76 /* MMLanScan.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MMLanScan/MMLanScan-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MMLanScan/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MMLanScan/MMLanScan.modulemap";
+				PRODUCT_NAME = MMLanScan;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		432EC04AB0C9498C9BD4D27B632A0D7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC02E6253C7AAFEB5525595AFF90539B /* Pods-IpCamScaner.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-IpCamScaner/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-IpCamScaner/Pods-IpCamScaner.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_IpCamScaner;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		63D36320D1F929B895DB6C568CB94C49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6322E5437A840283BAE519FBA058DB0 /* Pods-IpCamScaner.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-IpCamScaner/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-IpCamScaner/Pods-IpCamScaner.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_IpCamScaner;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7C07ED8089F70A31B83996A8910D7F18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		98F29E7567052F62660DDD7069ADF73C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		E33F010F9AC78A32E2840775E2DA733D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31F29572496216B8BD159CEF37200DF4 /* SwiftSocket.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftSocket/SwiftSocket-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftSocket/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftSocket/SwiftSocket.modulemap";
+				PRODUCT_NAME = SwiftSocket;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E36156C5B605872D2794351401BC3AEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC2F9BF0DC827207051630E5DB8D4D76 /* MMLanScan.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MMLanScan/MMLanScan-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MMLanScan/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MMLanScan/MMLanScan.modulemap";
+				PRODUCT_NAME = MMLanScan;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E75E92D8E1843D0917290F2C20CF2A04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31F29572496216B8BD159CEF37200DF4 /* SwiftSocket.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftSocket/SwiftSocket-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftSocket/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftSocket/SwiftSocket.modulemap";
+				PRODUCT_NAME = SwiftSocket;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		174BA697525813D8E61084C85FABB50A /* Build configuration list for PBXNativeTarget "SwiftSocket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E75E92D8E1843D0917290F2C20CF2A04 /* Debug */,
+				E33F010F9AC78A32E2840775E2DA733D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C07ED8089F70A31B83996A8910D7F18 /* Debug */,
+				98F29E7567052F62660DDD7069ADF73C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49CD763431A50EDD15DE2A19C014E860 /* Build configuration list for PBXNativeTarget "MMLanScan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E36156C5B605872D2794351401BC3AEF /* Debug */,
+				156F8BCA95B2FFD3BB2E01B39546AE77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55C08F9E13247D6337CF6659C7C80E5C /* Build configuration list for PBXNativeTarget "Pods-IpCamScaner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				432EC04AB0C9498C9BD4D27B632A0D7F /* Debug */,
+				63D36320D1F929B895DB6C568CB94C49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
